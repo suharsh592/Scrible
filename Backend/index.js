@@ -65,10 +65,6 @@ app.get("/", (req,res)=>{
     res.send("Working");
 });
 
-
-app.get("/hello", (req, res)=>{
-    res.send("you hit the hello route");
-});
 //create room
 
 app.post("/rooms", (req, res)=>{
